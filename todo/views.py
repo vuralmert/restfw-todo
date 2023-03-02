@@ -1,5 +1,5 @@
 from rest_framework import generics
-from todos import models
+from todo import models
 from .serializers import TodoSerializer
 
 
