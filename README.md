@@ -19,7 +19,7 @@
 <p>Once you have complete dowloading requirements and migrating and none of the services failed after you have run the following command,<pre>python manage.py runserver</pre>
 <ol>
 <li><b>Access and Interact with API Front-end App (Django Rest Framework)</b></li>
-<p>The API Front-end application should be running and you can see it via your web browser at <a href="http://127.0.0.1:8000/"></a>http://127.0.0.1:8000 which will take you to the main web app interface where you can create your tasks.</p>
+<p>The API Front-end application should be running and you can see it via your web browser at <a href="http://127.0.0.1:8000/todo/"></a>http://127.0.0.1:8000/todo which will take you to the main web app interface where you can create your tasks.</p>
 <p>For the developers I created a Swagger UI which you can access it via your web browser at  <a href="http://127.0.0.1:8000/schema/swagger-ui/"></a>http://127.0.0.1:8000/schema/swagger-ui which will take you to the page that you can see all of your apis and schemas.</p>
 <p>If you desire you can use <a href="http://127.0.0.1:8000/schema//"></a>http://127.0.0.1:8000/schema for downloading those apis as a .yaml file or <a href="http://127.0.0.1:8000/schema/redoc/"></a>http://127.0.0.1:8000/schema/redoc to edit your Swagger interface.</p>
 <li><b>Access Django Admin</b></li>
