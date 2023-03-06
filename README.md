@@ -13,7 +13,7 @@
 <p>Clone the repository<pre>git clone https://github.com/vuralmert/restfw-todo.git</pre></p>
 <li><b>Install the project dependencies</b>
 <p>Enter the following command<pre>pip install -r requirements.txt</pre></p>
-<li><b>Run the commands to generate the database</b><
+<li><b>Run the commands to generate the database</b>
 <p>Enter the following commands<pre>python manage.py makemigrations</pre><pre>python manage.py migrate</pre></p></ol>
 <h2>Usage</h2>
 <p>Once you have complete dowloading requirements and migrating and none of the services failed after you have run the following command,<pre>python manage.py runserver</pre>
