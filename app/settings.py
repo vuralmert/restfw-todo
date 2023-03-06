@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'drf_yasg',
+    'drf_spectacular',
     'todo',
 ]
 
@@ -46,8 +46,16 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
     'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 100,
-    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'SpeedPyCom API',
+    'DESCRIPTION': 'API documentation for SpeedPyCom based app',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+            'COMPONENT_SPLIT_REQUEST': True #True oldugunda drf-spectacular CRUD islemleri icin tanimlamalar ve farkli siniflar olusturabilir
+    }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
